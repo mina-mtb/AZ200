@@ -1,0 +1,32 @@
+# Environments & Virtual Envs
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+
+# OS & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+
+# Node & Package Managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Azure & Cloud credentials / temp logs
+*.log
+.azure/
+arm-template.json
+bicep.log
